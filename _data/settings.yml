@@ -19,6 +19,8 @@ menu_settings:
       url: "/about-us/"
     - title: "Guests"
       url: "/guests/"
+    - title: "Contact us"
+      url: "/contact-us/"
 
 # Call to action button
 cta_button:

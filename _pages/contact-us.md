@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
-image: '/images/37.jpg'
+title: Contact us
+permalink: /contact-us/
+image: 
 ---
 
 <div class="form-box">
