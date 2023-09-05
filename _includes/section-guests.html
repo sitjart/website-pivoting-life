@@ -1,0 +1,33 @@
+{% if site.data.settings.guests_section.enable == true %}
+<!-- begin section-guests -->
+<section class="section section-authors animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section-authors__inner">
+
+          {% if site.data.settings.guests_section.section_title %}
+          <h3 class="section-authors__title">{{ site.data.settings.guests_section.section_title }}</h3>
+          {% endif %}
+
+          <div class="section-authors__content">
+            <div class="section-authors__box">
+            {% for guest in site.guests limit:8 %}
+            {% assign post_count = site.posts | where:"guest", guest.username %}
+              <a href="{{ guest.url }}" class="section-authors__image">
+                <img class="lazy" data-src="{{ guest.image }}" alt="{{ guest.name }}">
+              </a>
+            {% endfor %}
+            </div>
+            {% if site.guests.size > 2 %}
+            <a href="/guests/" class="section-authors__link">See all guests</a>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section-guests -->
+{% endif %}

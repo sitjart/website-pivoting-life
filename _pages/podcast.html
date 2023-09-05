@@ -1,0 +1,32 @@
+---
+layout: default
+title: Podcast
+description: Episodes of the PivotingLife Podcast
+permalink: /podcast/
+---
+
+<!-- begin hero -->
+<section class="hero hero--left">
+    <div class="container">
+      {% if page.title %}
+      <h1 class="hero__title">{{ page.title }}</h1>
+      {% endif %}
+    </div>
+  </section>
+  <!-- end hero -->
+  
+  <section class="section podcast-page animate">
+    {% assign sorted = site.posts | where_exp: 'post', "post.spotifyepisode != nil" %}
+    <div class="container">
+      <div class="row">
+        {% for post in sorted %}
+        {% if post.spotifyepisode %}
+        <div class="col col-4 col-d-6 col-t-12">
+          {% include article.html %}
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% include pagination.html %}
+  </section>

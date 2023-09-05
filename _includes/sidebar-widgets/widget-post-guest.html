@@ -1,0 +1,39 @@
+{% assign guest = site.guests | where: 'username', page.guest | first %}
+{% if guest %}
+<div class="widget-sidebar widget-post-author">
+  <h2 class="widget-sidebar-title">Guest</h2>
+  {% if guest.image %}
+  <div class="post-author-image">
+    <a href="{{ guest.url }}" class="post__guest__image">
+      <img class="lazy" data-src="{{ guest.image }}" alt="{{ guest.name }}">
+    </a>
+  </div>
+  {% endif %}
+
+  {% if guest %}
+  <h2 class="post-author-name">
+    <a href="{{ guest.url }}">{{ guest.name }}</a>
+  </h2>
+  {% endif %}
+  {% if guest.content %}
+  <p class="post-author-description">{{ guest.content }}</p>
+  {% endif %}
+
+  <div class="post-author-social">
+  {% if guest %}
+    {% if guest.website %}
+    <a class="post-author-link" href="{{ guest.website }}" aria-label="Website link"><i class="ion ion-ios-link"></i></a>
+    {% endif %}
+    {% if guest.facebook %}
+    <a class="post-author-link" href="{{ guest.facebook }}" aria-label="Facebook link"><i class="ion ion-logo-facebook"></i></a>
+    {% endif %}
+    {% if guest.twitter %}
+    <a class="post-author-link" href="{{ guest.twitter }}" aria-label="Twitter link"><i class="ion ion-logo-twitter"></i></a>
+    {% endif %}
+    {% if guest.instagram %}
+    <a class="post-author-link" href="{{ guest.instagram }}" aria-label="Instagram link"><i class="ion ion-logo-instagram"></i></a>
+    {% endif %}
+  {% endif %}
+  </div>
+</div>
+{% endif %}
