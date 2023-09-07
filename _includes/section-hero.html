@@ -5,6 +5,15 @@
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
+          {% if site.data.settings.logo-footer or site.data.settings.logo-footer_dark %}
+          <img class="hero__image" src="{{ site.baseurl }}{{ site.data.settings.logo-footer }}"
+          alt="{{ site.data.settings.title }}">
+          <img class="hero__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo-footer_dark }}"
+          alt="{{ site.data.settings.title }}">
+          {% else %}
+          {{ site.data.settings.title }}
+          {% endif %}
+          
           {{ if site.data.settings.hero.hero_title }}
           <h1 class="hero__title">{{ site.data.settings.hero.hero_title }}</h1>
           {{ end }}
