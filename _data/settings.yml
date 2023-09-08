@@ -3,7 +3,7 @@
 title: Pivoting Life
 description: Your podcast station about alternative careers and ventures in the sciences. Here, we talk to people who left well-trodden paths and made bold decisions.
 logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
-logo_dark: "/images/logo-dark.svg"
+#logo_dark: "/images/logo-dark.svg"
 logo-footer: "/images/hero-image.svg"
 logo-footer_dark: "/images/hero-image-dark.svg"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
