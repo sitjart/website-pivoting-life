@@ -5,9 +5,22 @@
         <description>Your podcast station about alternative careers and ventures in the sciences. Here, we talk to people who left well-trodden paths and made bold decisions.</description>
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 08 Sep 2023 09:29:39 +0100</pubDate>
-        <lastBuildDate>Fri, 08 Sep 2023 09:29:39 +0100</lastBuildDate>
+        <pubDate>Tue, 12 Sep 2023 10:10:19 +0100</pubDate>
+        <lastBuildDate>Tue, 12 Sep 2023 10:10:19 +0100</lastBuildDate>
         <generator>Jekyll v4.3.2</generator>
+        
+            <item>
+                <title>Pilot</title>
+                <description>&lt;p&gt;Meet Kathi, a former scientist who leapt into the vibrant world of startups.
+Xenia, a passionate science communicator bridging the gap between complex research and the public. And Hannes, a professor in information systems, who constantly struggles with the boundaries of academic professions.&lt;/p&gt;
+
+</description>
+                <pubDate>Tue, 12 Sep 2023 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/latest/pilot</link>
+                <guid isPermaLink="true">http://localhost:4000/latest/pilot</guid>
+                
+                
+            </item>
         
     </channel>
 </rss>
