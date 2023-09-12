@@ -1,4 +1,4 @@
-#PivotingLife
+# PivotingLife
 
 Meet Kathi, a former scientist who leapt into the vibrant world of startups. Xenia, a passionate science communicator bridging the gap between complex research and the public. And Hannes, a professor in information systems who constantly struggles with boundaries of academic professions.
 
