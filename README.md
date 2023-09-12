@@ -1,73 +1,13 @@
-# Danto is a news and magazine Jekyll theme
+#PivotingLife
 
-Danto is a fast, modern, optimized, and mobile-friendly Jekyll theme. It is fully compatible with GitHub Pages, supports videos from YouTube and Vimeo, and also has a light and dark mode. This theme has been designed with a focus on readability to provide your visitors with a quality user experience and is perfect for a personal blog, news, magazine, and all kinds of publishing websites.
+Meet Kathi, a former scientist who leapt into the vibrant world of startups. Xenia, a passionate science communicator bridging the gap between complex research and the public. And Hannes, a professor in information systems who constantly struggles with boundaries of academic professions.
 
-* * *
+Join this eclectic trio as they introduce Pivoting Life, a podcast dedicated to the myriad paths life scientists tread outside the confines of traditional academia.
 
-### Demo
+Dive deep into the heart of unique career narratives.
 
-Check the theme in action [Live Demo](https://danto-jekyll.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
+Discover the rollercoaster of successes and setbacks, and bask in the raw authenticity of our guests’ stories.
 
-* * *
+Pivoting Life isn’t about achieving a flawless career trajectory – it’s about embracing the unexpected, learning from each twist and turn, and finding your own definition of success in science.
 
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode
-- No jQuery, only vanilla JS
-- 100% responsive design
-- Clean and modern code
-- Optimized for mobile devices
-- Compatible with modern browsers
-- Section featured posts
-- Page latest posts
-- Page videos
-- Post navigation
-- Section tag
-- Super fast performance ⚡⚡⚡
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Medium style image zoom
-- Image gallery
-- Tag page
-- Author page
-- Custom logo support
-- Support for multiple authors
-- Supports video posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Ionicons icons
-- Free Google Fonts
-- Free Updates & Support
-
-* * *
-
-### Installation
-
-#### Installing Ruby & Jekyll
-
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-* * *
-
-### Documentation
-
-Before using the Danto theme, please read the attached documentation.
-
-* * *
-
-### Support
-
-<p>If you have any questions or feedback about the theme, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+Tune in and get inspired to pivot your life towards an uncharted horizon.
