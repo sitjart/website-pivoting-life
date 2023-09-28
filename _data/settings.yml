@@ -7,7 +7,7 @@ logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
 logo-footer: "/images/hero-image.svg"
 logo-footer_dark: "/images/hero-image-dark.svg"
 logo_sponsor: "/images/place2b_s.png"
-logo_sponsor_dark: "/images/place2b_s.png"
+logo_sponsor_dark: "/images/place2b_s-dark.png"
 url_sponsor: "http://place2b-u.de"
 name_sponsor: "Place Beyond Bytes at University of Duisburg-Essen"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
