@@ -6,6 +6,7 @@ logo: "/images/logo.svg" # You can add own logo. For example "/images/logo.svg".
 #logo_dark: "/images/logo-dark.svg"
 logo-footer: "/images/hero-image.svg"
 logo-footer_dark: "/images/hero-image-dark.svg"
+logo_sponsor: "/images/place2b_logo.png"
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -65,13 +66,13 @@ guests_section:
 #-------------------------------
 # Footer Settings
 footer_description: Don't panic, pivot!
-
+sponsor_description: Proudly presented by...
 
 # Social Links
 social:
 - {icon: "linkedin", link: "https://linkedin.com/company/pivoting-life"}
 - {icon: "github", link: "https://github.com/PivotingLife/website"}
-- {icon: "volume-mute", link: "https://podcasters.spotify.com/pod/show/pivotinglife/"}
+- {icon: "volume-mute", link: "https://podcasters.spotify.com/pod/show/pivotinglife"}
 #- {icon: "twitter", link: "https://twitter.com"}
 #- {icon: "facebook", link: "https://facebook.com"}
 #- {icon: "codepen", link: "https://codepen.io"}
