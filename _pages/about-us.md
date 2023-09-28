@@ -16,8 +16,11 @@ Discover the rollercoaster of successes and setbacks, and bask in the raw authen
 
 Tune in and get inspired to pivot your life towards an uncharted horizon.
 
+<img class="lazy" data-src="{{site.baseurl}}/images/place2b_logo.png" alt="Place Beyond Bytes at University of Duisburg-Essen" loading="lazy" >
+
 We are supported by <a href="http://place2b-u.de">Place Beyond Bytes at University of Duisburg-Essen</a> with funding from the <a href="https://www.exzellenz-start-up-center.nrw/">Excellence Startup-Center Program</a> of the Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia.
 
 <img class="lazy" data-src="{{site.baseurl}}/images/sponsor_mwike.webp" alt="Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia" loading="lazy" >
+<img class="lazy" data-src="{{site.baseurl}}/images/sponsor_esc.jpg" alt="Excellence Startup-Center Program" loading="lazy" >
 
 {% include section-authors.html %}
