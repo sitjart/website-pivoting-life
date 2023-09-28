@@ -18,4 +18,6 @@ Tune in and get inspired to pivot your life towards an uncharted horizon.
 
 We are supported by <a href="http://place2b-u.de">Place Beyond Bytes at University of Duisburg-Essen</a> with funding from the <a href="https://www.exzellenz-start-up-center.nrw/">Excellence Startup-Center Program</a> of the Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia.
 
+<img class="lazy" data-src="{{site.baseurl}}/images/sponsor_mwike.webp" alt="Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia" loading="lazy" >
+
 {% include section-authors.html %}
