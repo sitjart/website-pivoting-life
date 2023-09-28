@@ -16,6 +16,6 @@ Discover the rollercoaster of successes and setbacks, and bask in the raw authen
 
 Tune in and get inspired to pivot your life towards an uncharted horizon.
 
-We are supported by <a href="https://place2b-u.de">Place Beyond Bytes at University of Duisburg-Essen</a> with funding from the <a href="https://www.exzellenz-start-up-center.nrw/">Excellence Startup-Center Program</a> of the Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia.
+We are supported by <a href="http://place2b-u.de">Place Beyond Bytes at University of Duisburg-Essen</a> with funding from the <a href="https://www.exzellenz-start-up-center.nrw/">Excellence Startup-Center Program</a> of the Ministry of Economic Affairs, Industry, Climate Action and Energy of the State of North Rhine-Westphalia.
 
 {% include section-authors.html %}
