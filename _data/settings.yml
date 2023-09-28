@@ -69,8 +69,9 @@ footer_description: Don't panic, pivot!
 
 # Social Links
 social:
-#- {icon: "linkedin", link: "https://www.linkedin.com"}
+- {icon: "linkedin", link: "https://linkedin.com/company/pivoting-life"}
 - {icon: "github", link: "https://github.com/PivotingLife/website"}
+- {icon: "volume-mute", link: "https://podcasters.spotify.com/pod/show/pivotinglife/"}
 #- {icon: "twitter", link: "https://twitter.com"}
 #- {icon: "facebook", link: "https://facebook.com"}
 #- {icon: "codepen", link: "https://codepen.io"}
