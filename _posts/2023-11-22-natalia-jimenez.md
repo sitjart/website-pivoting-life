@@ -6,7 +6,7 @@ date: 2023-11-22
 author: 
 guest: natalia-jimenez
 spotifyepisode: 5JTn66JFnquzi1QohX2oQN?utm_source=generator
-image: /images/002-episode-banner.png
+image: /images/002-episode-banner.jpg
 featured: true
 blog: false
 ---
