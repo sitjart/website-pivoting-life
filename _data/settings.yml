@@ -40,7 +40,7 @@ cta_button:
 hero:
   enable: true
   hero_title: Pivoting Life
-  hero_description: You podcast station about alternative careers and ventures in the sciences. Here, we talk to people who left well-trodden paths and made <strong>bold decisions</strong>.
+  hero_description: Your podcast station about alternative careers and ventures in the sciences. Here, we talk to people who left well-trodden paths and made <strong>bold decisions</strong>.
 
 #-------------------------------
 # Tags Section Settings
