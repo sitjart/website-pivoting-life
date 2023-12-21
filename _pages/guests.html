@@ -19,7 +19,7 @@ permalink: /guests/
         {% assign post_count = site.posts | where:"guest", guest.username %}
         <div class="col col-3 col-w-6 col-t-12 animate">
           <div class="authors__info">
-            <a class="authors__image" href="{{ author.url }}"><img class="lazy" data-src="{{ guest.image }}" alt="{{ guest.name }}"></a>
+            <a class="authors__image" href="{{ guest.url }}"><img class="lazy" data-src="{{ guest.image }}" alt="{{ guest.name }}"></a>
             <div class="authors__meta">
               <h2 class="authors__name"><a class="authors__link" href="{{ guest.url }}">{{ guest.name }}</a></h2>
               {% if post_count.size >= 1 %}
