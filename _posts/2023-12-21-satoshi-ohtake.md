@@ -6,7 +6,7 @@ date: 2023-12-21
 author: 
 guest: satoshi-ohtake
 spotifyepisode: 2f9CRnuWxRzhWxwud9dVHG?
-image: /images/003-episode-banner.jpg
+image: /images/003-episode-banner.png
 featured: true
 blog: false
 ---
