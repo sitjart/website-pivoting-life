@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LinkedIn ruined my comfort zone
-description: From Biochemistry to Bioinformatics to Business Development.
+description: From biochemistry to bioinformatics to business development.
 date: 2023-11-22
 author: 
 guest: natalia-jimenez

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: From Agri-Waste to Tasty Pastry
-description: From Professor Dreams to Business Schemes. A Creative Escape
+title: From agri-waste to tasty pastry
+description: From professor dreams to business schemes. A creative escape
 date: 2023-10-24
 author: 
 guest: tom-simmons

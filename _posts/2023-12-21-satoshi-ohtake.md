@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Introvert's Formula to Pivoting
-description: From Biochemistry to Bioinformatics to Business Development.
+title: The introvert's formula to pivoting
+description: 
 date: 2023-12-21
 author: 
 guest: satoshi-ohtake
