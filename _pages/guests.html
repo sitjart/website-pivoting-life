@@ -23,7 +23,7 @@ permalink: /guests/
             <div class="authors__meta">
               <h2 class="authors__name"><a class="authors__link" href="{{ guest.url }}">{{ guest.name }}</a></h2>
               {% if post_count.size >= 1 %}
-              <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %}Post{% else %}Posts{% endif %}</span>
+              <span class="authors__posts__count">{{ post_count.size }} {% if post_count.size < 2 %} Episode{% else %} Episodes{% endif %}</span>
               {% endif %}
             </div>
             {% if guest.content %}
