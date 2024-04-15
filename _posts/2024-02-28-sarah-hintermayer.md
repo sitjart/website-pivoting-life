@@ -8,7 +8,6 @@ guest: sarah-hintermayer
 spotifyepisode: 6FJg9IYDEJky4wIetisAyO?
 image: /images/004-episode-banner.png
 featured: true
-blog: false 
 ---
 
 Sarah Hintermayer is Vice President of regional strategy at Evonik, founder of a food venture, and lecturer on entrepreneurship in biotech at the University of Bielefeld. After completing her PhD in biotechnology, she worked as a process engineer at Evonik, a specialty chemicals company focussing on concrete.
