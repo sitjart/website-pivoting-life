@@ -2,7 +2,7 @@
 layout: post
 title: Pivoting your career - embracing change
 description: #write description to appear in nav boxes and landing page
-date: 2024-04-16 
+date: 2024-04-15 
 author: kathi-lauer
 image: /images/blog-banner-kathi.png
 featured: true
