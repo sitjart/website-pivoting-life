@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Thriving through change – 10 tips for career pivoting'
+title: 'Pivoting your career - embracing change'
 description: 
 date: 2014-04-16
 author: kathi-lauer
