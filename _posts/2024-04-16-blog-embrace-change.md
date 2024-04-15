@@ -1,11 +1,12 @@
 ---
 layout: post
-title: 'Thriving through change – 10 tips for career pivoting'
-description: 
-date: 2014-03-29
+title: Pivoting your career - embracing change
+description: #write description to appear in nav boxes and landing page
+date: 2024-04-16 
 author: kathi-lauer
-image: '/images/blog-banner-kathi.png' 
-featured: true 
+image: /images/blog-banner-kathi.png
+featured: true
+blog: true
 ---
 
 In our quest for personal and professional growth, we often find ourselves at a crossroads, contemplating the need for change. The desire to pivot our careers, to shift our life's trajectory towards something meaningful, exciting, or something that fits our current life situation. But what does it truly mean to pivot, and how can we navigate the uncertainty that accompanies this transformative journey?

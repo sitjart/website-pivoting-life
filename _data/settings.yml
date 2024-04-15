@@ -21,6 +21,8 @@ menu_settings:
       url: "/"
     - title: "Podcast"
       url: "/podcast/"
+    - title: "Blog"
+      url: "/blog/"
     - title: "About us"
       url: "/about-us/"
     - title: "Guests"
