@@ -4,11 +4,11 @@
     <div class="row">
       <div class="header__inner col col-12">
 
-        <div class="logo">
+          <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
           {% if site.data.settings.logo or site.data.settings.logo_dark %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-            <img class="logo__image__dark" src="{{ site.baseurl }}{{ site.data.settings.logo_dark }}" alt="{{ site.data.settings.title }}">
+            
           {% else %}
             {{ site.data.settings.title }}
           {% endif %}
@@ -52,6 +52,20 @@
             <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
             {% endif %}
           </div>
+           <div class="dark-light-button">
+              {% if site.data.settings.color_scheme == "auto" %}
+              <div class="toggle-theme">
+                <div class="toggle-moon" title="Enable dark mode" aria-hidden="true"><i class="ion ion-ios-moon"></i> <span class="toggle-text">Dark</span></div>
+                <div class="toggle-sun" title="Enable light mode" aria-hidden="true"><i class="ion ion-ios-sunny"></i> <span class="toggle-text">Light</span></div>
+              </div>
+              {% elsif site.data.settings.color_scheme == "light" or site.data.settings.color_scheme == "dark" %}
+              {% else %}
+              <div class="toggle-theme">
+                <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon" aria-hidden="true"></i></div>
+                <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny" aria-hidden="true"></i></div>
+              </div>
+              {% endif %}
+            </div>
         </nav>
 
       </div>
