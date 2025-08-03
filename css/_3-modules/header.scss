@@ -18,8 +18,7 @@
   letter-spacing: -1px;
 }
 
-.logo__image,
-.logo__image__dark {
+.logo__image {
   max-height: 50px;
 }
 
@@ -29,11 +28,7 @@
 
 .dark-mode {
   .logo__image {
-    display: none;
-  }
-
-  .logo__image__dark {
-    display: block;
+    max-height: 50px;
   }
 }
 
