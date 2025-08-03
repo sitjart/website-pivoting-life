@@ -74,28 +74,3 @@
     }
   }
 }
-
-.hero__image,
-.logo__image__dark {
-  max-width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hero__image__dark {
-  display: none;
-}
-
-.dark-mode {
-  .hero__image {
-    display: none;
-  }
-
-  .hero__image__dark {
-    display: block;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
