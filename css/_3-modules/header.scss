@@ -142,15 +142,13 @@
       text-underline-offset: 3px;
       text-decoration-color: transparent;
       will-change: transform;
-      color: var(--nav-color);
 
       &:hover {
         text-decoration-color: var(--link-color);
-        color: var(--link-color);
       }
 
       &.active-link {
-        text-decoration-color: var(--nav-color);
+        text-decoration-color: var(--link-color);
       }
     }
 
@@ -166,6 +164,7 @@
       }
 
       .arrow-down {
+        font-size: 14px;
         vertical-align: middle;
       }
 
@@ -286,7 +285,7 @@
   .search-button {
     display: flex;
     align-items: center;
-    color: var(--nav-color);
+    color: var(--link-color);
     cursor: pointer;
 
     &:hover {
@@ -294,12 +293,11 @@
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: 3px;
-        color: var(--link-color)
       }
     }
 
     .search-button__icon {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     .search-button__text {
@@ -309,7 +307,7 @@
       font-weight: 500;
     }
   }
-  
+
   .dark-light-button {
     display: flex;
     align-items: center;

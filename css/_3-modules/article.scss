@@ -106,8 +106,8 @@
 .video-icon {
   position: absolute;
   z-index: 1;
-  top: 60%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 68px;
   height: 68px;
@@ -221,7 +221,7 @@
   text-decoration-color: transparent;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
-  color: var(--link-color);
+  color: var(--heading-font-color);
 
   &:hover {
     text-decoration-color: var(--heading-font-color);

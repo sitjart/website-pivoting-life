@@ -22,16 +22,19 @@
   <div class="post-author-social">
   {% if guest %}
     {% if guest.website %}
-    <a class="post-author-link" href="{{ guest.website }}" aria-label="Website link"><i class="ion ion-ios-link"></i></a>
+    <a class="post-author-link" href="{{ guest.website }}" aria-label="Website link"><i class="fa-solid fa-link"></i></a>
     {% endif %}
     {% if guest.facebook %}
-    <a class="post-author-link" href="{{ guest.facebook }}" aria-label="Facebook link"><i class="ion ion-logo-facebook"></i></a>
+    <a class="post-author-link" href="{{ guest.facebook }}" aria-label="Facebook link"><i class="fa-brands fa-facebook"></i></a>
     {% endif %}
     {% if guest.twitter %}
-    <a class="post-author-link" href="{{ guest.twitter }}" aria-label="Twitter link"><i class="ion ion-logo-twitter"></i></a>
+    <a class="post-author-link" href="{{ guest.twitter }}" aria-label="Twitter link"><i class="fa-brands fa-x-twitter"></i></a>
     {% endif %}
     {% if guest.instagram %}
-    <a class="post-author-link" href="{{ guest.instagram }}" aria-label="Instagram link"><i class="ion ion-logo-instagram"></i></a>
+    <a class="post-author-link" href="{{ guest.instagram }}" aria-label="Instagram link"><i class="fa-brands fa-instagram"></i></a>
+    {% endif %}
+    {% if guest.linkedin %}
+    <a class="post-author-link" href="{{ guest.linkedin }}" aria-label="LinkedIn link"><i class="fa-brands fa-linkedi-in"></i></a>
     {% endif %}
   {% endif %}
   </div>

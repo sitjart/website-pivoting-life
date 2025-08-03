@@ -63,8 +63,7 @@
 
   .logo-footer__image,
   .logo-footer__image__dark {
-    max-height: 500px;
-    max-width: 175px;
+    max-height: 50px;
   }
 
   .logo-footer__image__dark {
@@ -111,8 +110,8 @@
     display: flex;
     align-items: center;
     padding: 4px;
-    font-size: 22px;
-    color: var(--link-color);
+    font-size: 20px;
+    color: var(--heading-font-color);
     will-change: transform;
     transition: $global-transition;
 

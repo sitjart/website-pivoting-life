@@ -211,7 +211,7 @@
       text-underline-offset: 2px;
 
       &:hover {
-        text-decoration-color: var(--link-color);
+        text-decoration-color: var(--link-color-hover);
       }
     }
   }
@@ -310,7 +310,7 @@
       margin-bottom: 8px;
       font-size: 15px;
       border-radius: 60px;
-      color: var(--primary-color);
+      color: var(--link-color);
       background-color: var(--background-alt-color);
       transition: $global-transition;
 
@@ -324,6 +324,7 @@
 
       i {
         margin-right: 4px;
+        font-size: 14px;
       }
     }
   }

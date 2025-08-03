@@ -4,7 +4,7 @@
     <div class="row">
       <div class="header__inner col col-12">
 
-        <div class="logo">
+          <div class="logo">
           <a class="logo__link" href="{{ site.baseurl }}/">
           {% if site.data.settings.logo or site.data.settings.logo_dark %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
@@ -26,7 +26,7 @@
               {% for item in site.data.settings.menu_settings.menu_items %}
               {% if item.submenu %}
               <li class="nav__item dropdown">
-                <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                <span class="nav__link dropdown-toggle">{{ item.title }} <i class="fa-solid fa-angle-down arrow-down"></i></span>
                 <div class="dropdown-menu">
                 {% for submenu-item in item.submenu %}
                   <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
@@ -42,16 +42,17 @@
 
             </ul>
           </div>
-        
+
           <div class="nav-button">
             <div class="search-button">
-              <i class="search-button__icon ion ion-md-search"></i>
+              <i class="search-button__icon fa-solid fa-magnifying-glass"></i>
               <span class="search-button__text">Search</span>
             </div>
             {% if site.data.settings.cta_button.enable == true %}
             <a href="{% if site.data.settings.cta_button.cta_button_link %}{{ site.data.settings.cta_button.cta_button_link }}{% else %}#{% endif %}" class="button cta-button">{{ site.data.settings.cta_button.cta_button_text }}</a>
             {% endif %}
-            <div class="dark-light-button">
+          </div>
+           <div class="dark-light-button">
               {% if site.data.settings.color_scheme == "auto" %}
               <div class="toggle-theme">
                 <div class="toggle-moon" title="Enable dark mode" aria-hidden="true"><i class="ion ion-ios-moon"></i> <span class="toggle-text">Dark</span></div>
@@ -65,8 +66,6 @@
               </div>
               {% endif %}
             </div>
-          </div>
-
         </nav>
 
       </div>
