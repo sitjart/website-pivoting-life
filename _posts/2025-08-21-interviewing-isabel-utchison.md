@@ -3,7 +3,7 @@ layout: post
 title: "From sleep labs to soccer apps: Isabel’s leap into tech entrepreneurship"
 description: 
 date: 2025-08-21 
-author: #write the author name id from _authors. Add new author to _author folder if needed. This field is only applicable for hosts and admins
+author: 
 guest: isabel-hutchison
 spotifyepisode: 
 image: /images/008-episode-banner.png
