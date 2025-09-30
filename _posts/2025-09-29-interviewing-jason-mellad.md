@@ -5,7 +5,7 @@ description:
 date: 2025-09-30 
 author: 
 guest: jason-mellad
-spotifyepisode: 
+spotifyepisode: 3gogc7Cj0PGJJPfXONpLEq
 image: /images/009-episode-banner.png
 featured: true
 blog: false
